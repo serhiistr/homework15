@@ -17,5 +17,5 @@ def about():
 @main_blueprint.route("/plants")
 def plants():
     all_plants = Plants.query.all()
-    return render_template("plants/add-plants.html", all_plants=all_plants)
+    return render_template("plants/add_plants.html", all_plants=all_plants)
 

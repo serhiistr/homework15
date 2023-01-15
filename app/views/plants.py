@@ -19,4 +19,4 @@ def add_plants():
         return redirect(url_for("main.plants"))
     # elif form.is_submitted():
     #     flash("The given data was invalid.", "danger")
-    return render_template("plants/add-plants.html", form = form)
+    return render_template("plants/add_plants.html", form = form)
